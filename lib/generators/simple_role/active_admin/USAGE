@@ -1,0 +1,6 @@
+Description:
+  Generates for ActiveAdmin Permission resource with SimpleRole gem.
+  You have to setup Active Admin before execution.
+
+Examples:
+  rails generate simple_role:active_admin:resource

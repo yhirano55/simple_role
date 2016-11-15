@@ -1,0 +1,9 @@
+Description:
+  Generates the necessary files to get you up and running with SimpleRole gem
+
+Examples:
+  rails generate simple_role:install
+
+    This will generate the core migration file, the initializer file and the 'User' model class.
+
+  rails generate simple_role:install --model AdminUser

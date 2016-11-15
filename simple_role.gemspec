@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Yoshiyuki Hirano"]
   s.email       = ["yhirano@me.com"]
   s.homepage    = 'https://github.com/yhirano55/simple_role'
-  s.summary     = %q{Magical Authorization for Rails}
-  s.description = %q{Magical Authorization for Rails}
+  s.summary     = %q{manage role based authorization for Rails}
+  s.description = %q{manage role based authorization for Rails}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

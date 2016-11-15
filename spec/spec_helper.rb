@@ -1,2 +1,17 @@
-$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-require "simple_role"
+require "rubygems"
+require "bundler/setup"
+
+$: << File.join(File.dirname(__FILE__), "..", "lib")
+require "rspec"
+
+RSpec.configure do |config|
+  config.expect_with :rspec do |expectations|
+    expectations.syntax = [:should, :expect]
+  end
+
+  config.mock_with :rspec do |mocks|
+    mocks.syntax = [:should, :expect]
+  end
+
+  config.order = :random
+end

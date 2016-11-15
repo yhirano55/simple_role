@@ -1,0 +1,8 @@
+Description:
+  Generates for CanCan Ability Model with SimpleRole gem.
+  You have to add `cancan` or `cancancan` to your Gemfile before execution.
+
+Examples:
+  rails generate simple_role:cancan:ability
+
+    This will generate the 'Ability' model class.
